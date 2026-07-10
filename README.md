@@ -27,3 +27,5 @@ User Input → Agent → Knowledge Base (RAG) → Foundation Model → Personali
 
 ## Developer
 Dev Srivastava
+
+Note: Due to IBM watsonx Orchestrate trial limitations, the original exported app.json was not available. A project configuration template has been provided for documentation purposes.
