@@ -1,0 +1,14 @@
+{
+  "name": "Interview Trainer Agent",
+  "description": "AI-powered Interview Preparation Agent built using IBM watsonx Orchestrate and watsonx.ai.",
+  "version": "1.0.0",
+  "platform": "IBM watsonx Orchestrate",
+  "features": [
+    "Technical Interview Questions",
+    "HR Questions",
+    "Behavioral Questions",
+    "Model Answers",
+    "Preparation Tips",
+    "RAG Knowledge Base"
+  ]
+}
