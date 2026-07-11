@@ -65,6 +65,32 @@ npm start
 
 The AI Interview Agent is connected to IBM BOB using the embed code provided by IBM watsonx Orchestrate.
 
+## Architecture
+
+Frontend (IBM BOB)
+        ↓
+Backend (Node.js/Express)
+        ↓
+IBM watsonx Orchestrate Agent
+        ↓
+watsonx.ai Foundation Models
+        ↓
+Personalized Interview Guidance
+
+
+## Technologies Used
+
+- React.js
+- Node.js
+- Express.js
+- IBM BOB
+- IBM watsonx Orchestrate
+- IBM watsonx.ai
+- IBM Cloud
+- JWT Authentication
+- PDFKit
+
+
 ## Future Enhancements
 
 * Voice interview simulator
