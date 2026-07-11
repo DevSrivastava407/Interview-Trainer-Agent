@@ -1,31 +1,79 @@
-# Interview Trainer Agent
+# AI Interview Trainer Agent
 
-An AI-powered Interview Preparation Assistant built using IBM watsonx Orchestrate and watsonx.ai.
+An end-to-end AI-powered Interview Preparation Platform built using IBM watsonx Orchestrate, watsonx.ai, and IBM BOB.
 
 ## Features
-- Personalized interview questions
-- Technical, HR and Behavioral questions
-- Model answers and preparation tips
-- RAG-based knowledge retrieval
-- Resume and role-based guidance
 
-## Technologies
-- IBM watsonx Orchestrate
-- IBM watsonx.ai
-- IBM Cloud
-- RAG (Retrieval Augmented Generation)
-- GitHub
+* Personalized interview questions
+* Technical, HR, and Behavioral interview preparation
+* Resume-based guidance
+* Model answers and preparation tips
+* RAG-powered knowledge retrieval
+* Interactive web interface using IBM BOB
+* Backend APIs for interview generation and session management
+* Embedded watsonx Orchestrate agent integration
 
-## Workflow
-User Input → Agent → Knowledge Base (RAG) → Foundation Model → Personalized Interview Preparation Guide
+## Architecture
+
+User → IBM BOB Frontend → Backend APIs → watsonx Orchestrate Agent → RAG Knowledge Base → Foundation Model → Personalized Interview Guidance
+
+## Tech Stack
+
+* IBM watsonx Orchestrate
+* IBM watsonx.ai
+* IBM BOB
+* IBM Cloud
+* RAG (Retrieval Augmented Generation)
+* Node.js / Express
+* React (Frontend)
+* GitHub
+
+## Project Structure
+
+```text
+frontend/      → IBM BOB UI application
+backend/       → APIs and business logic
+orchestrate/   → Agent configuration and integration files
+```
+
+## Setup
+
+### Clone Repository
+
+```bash
+git clone <repository-url>
+cd AI-Interview-Agent
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+## IBM watsonx Orchestrate Integration
+
+The AI Interview Agent is connected to IBM BOB using the embed code provided by IBM watsonx Orchestrate.
 
 ## Future Enhancements
-- Resume analysis
-- Mock interview simulator
-- Voice support
-- Company-specific preparation
+
+* Voice interview simulator
+* Company-specific interview preparation
+* Real-time feedback and scoring
+* Interview performance analytics
 
 ## Developer
+
 Dev Srivastava
 
-Note: Due to IBM watsonx Orchestrate trial limitations, the original exported app.json was not available. A project configuration template has been provided for documentation purposes.
+ 
